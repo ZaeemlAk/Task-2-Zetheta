@@ -1,0 +1,11 @@
+event_date,category,description,severity,affected_features
+2024-01-15,UPI adoption,Aggressive UPI adoption and campaign expanded small-ticket digital transactions.,High,"F01,F02,F09,F14"
+2024-03-01,IP reputation,Third-party IP reputation feed updated and several low-risk IP ranges were reclassified.,High,"F10,F05,F11"
+2024-04-10,Device spoofing,Device fingerprint spoofing campaign targeted mobile user sessions.,Critical,"F05,F11,F12"
+2024-05-18,Mobile app redesign,Mobile app redesign changed session and channel telemetry capture behavior.,Medium,"F09,F11,F06"
+2024-06-22,Fraud-labeling process,Fraud review queue delay created labeling lag and stale supervisory labels.,Critical,"F03,F12,F15"
+2024-07-12,RBI UPI limit changes,Higher UPI transaction limits increased high-value transfer patterns.,High,"F01,F14,F15"
+2024-08-03,Inflation,Inflation elevated transaction sizes and risk asymmetry.,Medium,"F01,F08,F07"
+2024-09-17,Cross-border fraud,Cross-border mule activity increased and bypassed geo heuristics.,Critical,"F04,F15,F10"
+2024-10-20,XGBoost library update,Model library update introduced threshold-shift behaviour in the production pipeline.,Medium,"F10,F15,F01"
+2024-11-05,Feedback loop,Missed fraud cases were later treated as legitimate labels and reintroduced to retraining.,Critical,"F03,F12,F15"

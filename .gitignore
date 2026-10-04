@@ -1,0 +1,15 @@
+.venv/
+**/.venv/
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+*.py[cod]
+backend/monitoring.db
+.env
+.env.*
+!.env.example
